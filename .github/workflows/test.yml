@@ -20,4 +20,4 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y make
 
       - name: Run tests via Makefile
-        run: make testt
+        run: make test
