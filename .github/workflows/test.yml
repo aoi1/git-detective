@@ -16,8 +16,5 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install make
-        run: sudo apt-get update && sudo apt-get install -y make
-
-      - name: Run tests via Makefile
-        run: make test
+      - name: Run tests
+        run: ./run_tests.sh
